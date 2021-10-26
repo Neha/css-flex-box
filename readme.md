@@ -26,4 +26,4 @@ This repo has the code examples for the blog I wrote on flex. You can read it [h
 
 [align-content](https://github.com/Neha/css-flex-box/tree/master/align-content)
 
-[order](https://github.com/Neha/css-flex-box/tree/master/12.order)
+[order](https://github.com/Neha/css-flex-box/tree/master/order)

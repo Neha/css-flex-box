@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  background: #f8ffe7;
+  padding: 10px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+section > div {
+  background: #dfffdf;
+  padding: 10px;
+  border: 1px solid #fff;
+  flex-basis: 100px;
+  flex-shrink: 1;
+}
+
+@media only screen and (min-width: 600px) {
+  section {
+    width: 800px;
+    flex-wrap: wrap;
+  }
+  section > div {
+    background: #dfffdf;
+    padding: 10px;
+    border: 1px solid #fff;
+  }
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  background: #e4f8ff;
+  padding: 10px;
+  width: 800px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section > div {
+  background: #dfffdf;
+  padding: 10px;
+  border: 1px solid #fff;
+  width: 50px;
+  flex-grow: 1;
+}
